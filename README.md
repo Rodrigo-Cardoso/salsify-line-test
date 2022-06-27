@@ -1,25 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Created acording to the documentation supplied @ http://salsify.github.io/line-server
 
-Things you may want to cover:
+Using Ruby 3.0.2
+Made in Xubuntu 22.04 LTS (Based on Ubuntu 22.04 LTS) after fresh installation
+Development environment made with docker
 
-* Ruby version
+Run build.sh for installation of docker with the script from https://get.docker.com/ and building of docker image.
+The same file is also prepared for a native installation using ruby3.0 from ubuntu's package manager, using the flag '--native'.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# salsify-line-test
+  
