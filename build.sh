@@ -24,7 +24,7 @@ nativeInstallation(){
     bundle install    
 }
 normalInstallation(){
-    docker -v >/dev/null 2>&1
+    docker -v &>/dev/null
 
     if [ $? -ne 0 ]; then
         
