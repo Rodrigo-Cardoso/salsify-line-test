@@ -43,7 +43,7 @@ getFile $1
 rm tmp/pids/server.pid &>/dev/null
 
 docker -v &>/dev/null
-    if [ $? -ne 0 ]; then
+    if [ $? == 0 ]; then
         sudo docker image inspect salsify-line-test:latest &>/dev/null
         if [ $? == 0 ]; then
             dockerRun
