@@ -12,6 +12,8 @@
 - https://ruby-doc.org/core-2.5.1/IO.html#method-c-foreach
 - https://www.rubydoc.info/stdlib/core/IO:readlines (not used in final version after evaluation)
 - https://stackoverflow.com/questions/59531764/rails-file-readlines-vs-file-gets
+- https://www.howtoforge.com/setup-ruby-on-rails-development-environment-with-docker-and-docker-compose-on-ubuntu/ (docker run command for new RoR app)
+- https://rapidapi.com/blog/how-to-build-an-api-in-ruby/ (usage of --api --skip-active-record flags)
 
 # Third party libraries
 - There was no inclusion of more libraries than the ones already available when creating a new Ruby on Rails server
