@@ -11,7 +11,7 @@ The same file is also prepared for a native installation using ruby3.0 from ubun
 
 To execute, run "run.sh", followed by the file to be used. This script will detect a valid docker install and subsequent docker image to execute the rails server OR run it in native mode.
 
-#--- Q&A ---
+# --- Q&A ---
 
 ## Flow of operations
 - The file used as parameter in run.sh will be copied to the folder "public/files" under the name "line_file.txt", after it is detected as a valid .txt file.
