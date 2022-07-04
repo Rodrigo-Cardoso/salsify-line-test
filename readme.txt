@@ -21,4 +21,8 @@
 
 # Code analysis
 - Could be cleaner
-- No authentication necessary
+- Could use some more investigation into memory usage and profiling
+- Currently accessible without user authentication
+- Does not validate if the line_id param is an actual valid integer
+- Does not validate the existance of the file used for all requests
+- Should have a simples .txt file for unit testing
